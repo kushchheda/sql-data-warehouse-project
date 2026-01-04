@@ -12,6 +12,9 @@ Parameters:
     None. 
 	  This stored procedure does not accept any parameters or return any values.
 
+Note:
+	Make sure to insert the correct dataset path in the FROM statement before running.
+
 Usage Example:
     EXEC bronze.load_bronze;
 ===============================================================================
